@@ -11,7 +11,7 @@ See ``parse_setup_py.py`` and ``tests``.
 
 Some things I learned along the way:
 
-``pip`` uses the following shim to basically invoke ``python setup.py <arg>``:
+(Roughly) ``pip install`` uses the following to invoke ``python setup.py <arg>``:
 
 ```
 # Shim to wrap setup.py invocation with setuptools
